@@ -3,7 +3,7 @@
   
   Description: =
   
-  An Implementation of https://openweathermap.org/ page test automation using WebDriverIO Cucumber BDD Page Object pattern with NodeJS NPM End to end
+  An Implementation of https://openweathermap.org/ page test automation using WebDriverIO Cucumber BDD Page Object pattern with NodeJS      NPM Grunt end to end
   
   ==================================
   
@@ -12,8 +12,11 @@
   ==================================
   
   F001_VerifyOpenWeatherMapHomePageDetails.feature
+  
   F002_InvalidCityWeatherSearch.feature
+  
   F003_ValidCityWeatherSearch.feature
+  
   F004_NavBarNavigationandVerifyWeatherFrmAPI.feature
   
   =========================================
@@ -22,15 +25,25 @@
   
   =========================================
   openweathermaptest
-  >>>>>>>>config
-  >>>>>>>>features
-  >>>>>>>>pageobjectmodel
-  >>>>>>>>reports
-  >>>>>>>>stepDefinitions
-  >>>>>>>>util
+  
+  config
+  
+  features
+  
+  pageobjectmodel
+  
+  reports
+  
+  stepDefinitions
+  
+  util
+  
   Gruntfile.js
+  
   index.js
+  
   package.json
+  =========================================
   
   Pre-requisite
   For Selenium standalone to install and execute successfully, please execute the following command:
