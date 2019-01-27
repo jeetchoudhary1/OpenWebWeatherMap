@@ -47,7 +47,7 @@
   
   =========================================
   
-  Pre-requisite
+# Pre-requisite
   For Selenium standalone to install and execute successfully, please execute the following command:
   
   
@@ -56,7 +56,7 @@
   
   This is required from selenium-standalone package. The execution of launching the selenium-standalone server is already handled using   the scripts in package.json
   
-  Installation
+ # Installation
   
   Please execute the following code snippet before executing the tests
   
@@ -68,11 +68,11 @@
   
   
   
-  Test Reporting
+ # Test Reporting
   
   Multiple reporters configured in the framework and you can use any of the following:
   
-  Junit
+  # Junit
   
   Please install the junit-viewer line using the command first using the command:
   
@@ -82,7 +82,7 @@
   
   npm run junit-report
   
-  Allure
+  # Allure
   
   Please install the allure-commandline tool using the command first using the command:
   
@@ -92,7 +92,7 @@
   
   npm run allure-report
   
-  Cleanup
+# Cleanup
   
   There can be some stray references to the chromedriver that can accumalate over time and are visible in the task manager. Please          execute the following command via an administrator command prompt. Do match the name of the stary proccess before executing.
   
