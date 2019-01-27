@@ -60,6 +60,8 @@
   
   Please execute the following code snippet before executing the tests
   
+  Open a command prompt and go to folder location and run `npm install` to grab all dependencies.
+  
   npm install
   
   This command should take care of all the dependencies.
