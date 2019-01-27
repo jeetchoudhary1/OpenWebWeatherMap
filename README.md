@@ -66,9 +66,7 @@
   
   npm run test
   
-  To run any selective tests, we can mark the tests via specific tags and run them using the command:
   
-  yarn run wdio -- --cucumberOpts.tagExpression=@sanity
   
   Test Reporting
   
