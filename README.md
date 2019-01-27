@@ -24,6 +24,7 @@
   Project Structure: - OpenWebWeatherMap
   
   =========================================
+  
   openweathermaptest
   
   config
@@ -43,12 +44,15 @@
   index.js
   
   package.json
+  
   =========================================
   
   Pre-requisite
   For Selenium standalone to install and execute successfully, please execute the following command:
   
+  
   setx NODE_TLS_REJECT_UNAUTHORIZED 0
+  
   
   This is required from selenium-standalone package. The execution of launching the selenium-standalone server is already handled using   the scripts in package.json
   
